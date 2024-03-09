@@ -65,7 +65,7 @@ function init() {
 // Event listener for form submission
 taskForm.addEventListener('submit', handleSubmission);
 
-// Function to mark a task as complete
+// Function to mark a task as complete from the top so far..
 function markTaskComplete(button) {
     const row = button.closest('tr');
     const index = row.rowIndex - 1; 
@@ -74,7 +74,7 @@ function markTaskComplete(button) {
     render();
 }
 
-// Function to remove a task
+// Function to remove a task from the top so far..
 function removeTask(button) {
     const row = button.closest('tr');
     const index = row.rowIndex - 1; 
